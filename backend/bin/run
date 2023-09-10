@@ -1,4 +1,17 @@
+#!/bin/bash
+
+echo "Deploing delivery project"
+
 source ./my_venv/bin/activate
 cd prj
-./manage.py runserver 8989
+
+case "$#" in
+    0 )
+        port=8282
+    ;;
+    1 )
+        port=$1
+esac
+
+./manage.py runserver $port
 
