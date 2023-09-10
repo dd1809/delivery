@@ -1,0 +1,7 @@
+cd backend
+python -m venv my_venv
+source ./my_venv/bin/activate
+python -m pip install -r requirements.txt
+cd prj
+./manage.py migrate
+
