@@ -1,0 +1,4 @@
+source ./my_venv/bin/activate
+cd prj
+./manage.py runserver 8989
+

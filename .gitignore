@@ -1,0 +1,10 @@
+*.pyc
+__pycashe__
+`.pytest_cashe
+my_venv/
+node_modules/
+package-lock.json
+.vscode
+.idea
+backend/prj/db.sqlite3
+
